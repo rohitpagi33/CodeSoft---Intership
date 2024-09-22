@@ -15,26 +15,149 @@ body {
     font-size: 3.5rem;
     font-weight: bold;
 }
-
-.hero-section p {
-    font-size: 1.2rem;
-    margin: 20px 0;
+.cssanimation{
+    width: 100%;
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 60px;
+}
+.typing {
+    width: 473px;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 2px solid #7E2EA0;
+    animation: typing 2s steps(12, end), cursor .2s steps(12, end) infinite;
+}
+@keyframes typing {
+    from { width: 0 }
+}
+@keyframes cursor {
+    50% { border-color: transparent }
+}
+#about {
+    background-color: #fff;
+    padding: 60px 20px;
+    text-align: center;
 }
 
-#about p {
-    font-size: 1.1rem;
-    margin-bottom: 30px;
+.about-container {
+    max-width: 800px;
+    margin: 0 auto;
+    color: #333;
+    line-height: 1.6;
 }
 
-.skill-icon {
-    display: inline-block;
-    margin: auto;
-    width: 100px;
-    height: 100px;
+.about-container h2 {
+    font-size: 36px;
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+.about-container p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.about-container strong {
+    color: #007bff;
+}
+
+#skills {
+    background-color: #f2f2f2;
+    padding: 60px 20px;
+}
+
+.skills-container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.skills-container h2 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+.skill h3 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.progress-bar {
+    background-color: #ddd;
+    border-radius: 25px;
+    overflow: hidden;
+    height: 20px;
+    margin-bottom: 20px;
+}
+
+.progress {
+    background-color: #007bff;
+    height: 100%;
+    text-align: right;
+    padding-right: 10px;
+    padding-left: 10px;
+    color: white;
+    font-weight: bold;
+    line-height: 20px;
+    border-radius: 25px;
+}
+
+#projects {
+    background-color: #f2f2f2;
+    padding: 60px 20px;
+}
+
+.projects-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.projects-container h2 {
+    font-size: 36px;
+    color: #007bff;
+    margin-bottom: 40px;
+}
+
+.projects-row {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
 }
+
+.project-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 23%;
+    padding: 20px;
+    text-align: left;
+}
+
+.project-card img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.project-card h3 {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.project-card p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+}
+
 
 footer {
     background-color: #343a40;
