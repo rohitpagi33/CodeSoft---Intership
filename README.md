@@ -1,9 +1,3 @@
-# CodeSoft---Intership
-Web Development Virtual  Internship at CodeSoft
-Here’s a tailored description for your GitHub repository based on the projects you worked on during the CodeSoft web development internship:
-
----
-
 ## CodeSoft Virtual Internship - Web Development (4 Weeks)
 
 ### Overview
