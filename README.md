@@ -43,6 +43,4 @@ This repository contains the projects I developed during my 4-week **CodeSoft Vi
 ### Conclusion
 This internship provided a solid foundation in web development and equipped me with practical skills to build real-world projects. The projects in this repository reflect my growth as a developer over the 4-week period.
 
----
 
-You can use this description directly or tweak it as per your preference!
